@@ -63,7 +63,7 @@ public class BinaryNode {
         }
     }
 
-    public void binaryInsertIterative(int value)
+    public void binaryInsert(int value)
     {
         BinaryNode current = this;
         while (current != null)
