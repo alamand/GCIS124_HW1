@@ -73,6 +73,7 @@ public class BinaryNode {
                 if(current.left == null)
                 {
                     current.left = new BinaryNode(value);
+                    break;
                 }
                 else
                     current = current.left;
@@ -82,6 +83,7 @@ public class BinaryNode {
                 if(current.right == null)
                 {
                     current.right = new BinaryNode(value);
+                    break;
                 }
                 else
                     current = current.right;
